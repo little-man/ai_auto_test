@@ -1,0 +1,23 @@
+schema_version: 1
+module_path: ""
+title: MeterSphere 3.x 单体工程根（Maven 聚合 + Docker 镜像）
+scope:
+    - README.md
+    - README-EN.md
+    - CONTRIBUTING.md
+    - CODE_OF_CONDUCT.md
+    - SECURITY.md
+    - build.md
+    - use-cases.md
+    - pom.xml
+    - lombok.config
+    - .gitignore
+    - Dockerfile
+    - Jenkinsfile
+    - mvnw.cmd
+    - LICENSE
+    - OWNERS
+    - mvnw
+source_files: []
+depends_on: []
+related_to: []

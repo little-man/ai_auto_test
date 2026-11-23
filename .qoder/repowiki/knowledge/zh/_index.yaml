@@ -1,0 +1,53 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: Q0DeR-MaG1C-BrAnCh-Fo2-NoN-GiT-Or-No-C0MmIt
+nodes_managed: true
+exported_at: "2026-11-23T06:56:02Z"
+modules:
+    "":
+        dir_name: MeterSphere 3.x 单体工程根（Maven 聚合 + Docker 镜像）
+        title: MeterSphere 3.x 单体工程根（Maven 聚合 + Docker 镜像）
+        scope:
+            - README.md
+            - README-EN.md
+            - CONTRIBUTING.md
+            - CODE_OF_CONDUCT.md
+            - SECURITY.md
+            - build.md
+            - use-cases.md
+            - pom.xml
+            - lombok.config
+            - .gitignore
+            - Dockerfile
+            - Jenkinsfile
+            - mvnw.cmd
+            - LICENSE
+            - OWNERS
+            - mvnw
+        source_files: []
+        children:
+            - backend
+            - frontend
+        depends_on: []
+        related_to: []
+    backend:
+        dir_name: 后端服务聚合模块（Spring Boot 单体应用）
+        title: 后端服务聚合模块（Spring Boot 单体应用）
+        scope:
+            - backend/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: frontend
+    frontend:
+        dir_name: MeterSphere 前端应用（Vue3 + Vite）
+        title: MeterSphere 前端应用（Vue3 + Vite）
+        scope:
+            - frontend/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: backend
